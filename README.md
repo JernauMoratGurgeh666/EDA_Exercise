@@ -49,8 +49,38 @@ In order to install the environment you can use the following commands:
 
 ```
 pyenv local 3.11.3
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
+pip install geopandas
+pip install folium
+pip install geopy
 ```
+
+
+### Spiced Academy / Data Science Bootcamp / Week 03 / 1. Test "EDA Exercise"
+
+1. I used the provided template.
+
+2. I filtered and downloaded King County housing market data with SQL queries from online database via web access.
+
+3. I explored randomly at first and plotted some graphs freestyle.
+
+4. I developed multiple hypothesis and run the prospective plots to confirm or disprove my estimates.
+
+5. I additionally went to  official King County Sheriff's website and downloaded crime statistics to improve my recommendation for my client because due to her name (Nicole Johnson) and location (KC, USA) an LLM estimated her to be most probably a 30-something business lady.
+
+6. I exported all to my search (Lively, central neighborhood, middle price range, right timing (within a year) relevant plots for building my presentation.
+
+7. I also exported the top 10 homes to use in Excel and Powerpoint as LowCrimeCityCenter.csv.
+
+8. I exported my top 3 recommendations for my client as interactive HTML map (Top_3_Locations_Map.html).
+
+9. I created an intro mood video showing a day in the life of my client living in King County and Seattle.
+
+10. I cerated a 2nd video a screen recording of me using my HTML map to use in my presentation.
+
+11. I fine-tuned presentation, typo, visuals, plots, etc. – and pushed everything back to Repo.
+
+
